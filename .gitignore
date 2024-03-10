@@ -1,0 +1,16 @@
+# 忽略所有文件
+*
+
+# 但不忽略目录，因为我们需要查找目录中的.c和.h文件
+!/**/
+
+# 不忽略.gitignore和README.md文件
+!.gitignore
+!README.md
+
+# 不忽略LICENSE文件
+!LICENSE
+
+# 允许跟踪所有的.c和.h文件
+!**/*.c
+!**/*.h
